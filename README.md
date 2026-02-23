@@ -1,1 +1,9 @@
-# 24ADI003_24BAD096_EX-4
+Scenario 1 – Multinomial Naïve Bayes:
+
+Dataset (Kaggle – Public) https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
+
+In this scenario, Multinomial Naïve Bayes was implemented to classify SMS messages as Spam or Ham using the SMS Spam Collection Dataset obtained from Kaggle. The text data was preprocessed by converting messages to lowercase, removing punctuation, and optionally eliminating stopwords to improve data quality. The cleaned text was transformed into numerical features using Count Vectorization or TF-IDF techniques. After encoding the target labels, the dataset was split into training and testing sets, and the Multinomial Naïve Bayes model was trained on the training data. Predictions were evaluated using accuracy, precision, recall, F1-score, and a confusion matrix. Feature analysis showed that words such as “free,” “win,” and “offer” significantly influenced spam classification, and Laplace smoothing was applied to handle zero probability issues, improving model robustness.# 24ADI003_24BAD096_EX-4
+
+Scenario 2 – Gaussian Naïve Bayes:
+
+In this scenario, Gaussian Naïve Bayes was used to classify flower species using the Iris dataset available in Scikit-learn, originally introduced by Ronald A. Fisher. The dataset contains four continuous numerical features: sepal length, sepal width, petal length, and petal width, which were used to predict three species—Setosa, Versicolor, and Virginica. After loading and inspecting the dataset, feature scaling was applied to standardize the numerical values. The data was divided into training and testing sets, and the Gaussian Naïve Bayes model was trained and evaluated using accuracy, precision, recall, F1-score, and confusion matrix analysis. Class probabilities were examined to understand prediction confidence, and the model demonstrated effective performance for continuous numeric data with low computational complexity.
